@@ -1,24 +1,42 @@
 # Gnome-Sort-Final
 DSA Project code
+
 using System;
+
 using System.Collections.Generic;
+
 using System.Linq;
+
 using System.Text;
+
 using System.Threading.Tasks;
+
 using System.IO;
 
 namespace ConsoleApp36
+
 {
+
     class Program
+    
     {
+    
         static void Main(string[] args)
+        
         {
+        
             Console.WriteLine("\t\t\t\t==========");
+            
             Console.WriteLine("\t\t\t\tGNOME SORT");
+            
             Console.WriteLine("\t\t\t\t==========");
+            
             Console.WriteLine("\t\t\t( Compare , Swap , Repeat )");
+            
             Console.Write("=> Un-Sorted List\n");
+            
             Console.WriteLine("   --------------");
+            
             int[] arrays = new int[7];
             try
             {
